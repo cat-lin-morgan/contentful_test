@@ -7,14 +7,15 @@
 </template>
 
 <script setup>
-import LandingPageDummy from './pages/LandingPageDummy.vue'
+
+  import LandingPageDummy from './pages/LandingPageDummy.vue'
 
 </script>
 
 <style>
 
-body {
-  background-color: #fff;
-}
+  body {
+    background-color: #fff;
+  }
 
 </style>
