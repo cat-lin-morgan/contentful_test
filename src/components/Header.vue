@@ -1,12 +1,12 @@
 <template>
-    <div>
-        <div>
+    <div class="header-wrapper">
+        <div class="logo">
             <a href="">EXTRA LOGO</a>
         </div>
-        <div>
+        <div calss="nav">
             <a href="">BLOG</a>
             <a href="">FAQs</a>
-            <a href="">Apply Rn!</a>
+            <button>Apply Rn!</button>
         </div>
     </div>
 </template>
@@ -20,5 +20,27 @@
 </script>
 
 <style scoped>
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    align-items: center;
+}
+
+.logo {
+    color: black;
+}
+
+.logo:hover {
+    color: black;
+    text-decoration: none;
+}
+
+a {
+    padding: 0 20px 0 20px;
+    color: black;
+    font-weight: bold;
+}
+
 
 </style>
